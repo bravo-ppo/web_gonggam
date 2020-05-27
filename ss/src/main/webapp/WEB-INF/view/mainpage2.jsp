@@ -11,7 +11,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<link rel="icon" href="favicon.ico">
-		<title>공감하다</title>
+		<title>셔틀타고</title>
 		<!-- Bootstrap core CSS -->
 		<link href="/static/assets/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -20,6 +20,15 @@
 		<link href="/static/assets/css/owl.theme.default.min.css"  rel="stylesheet">
 		<link href="/static/assets/css/animate.css" rel="stylesheet">
 		<link href="/static/assets/css/style.css" rel="stylesheet">
+		      <!-- for map marker -->
+      <style>
+      .customoverlay {position:relative;bottom:45px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
+      .customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+      .customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-weight:bold;overflow:hidden;background: #d95050;background: #d95050 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+      .customoverlay .title {display:block;text-align:center;background:#fff;margin-right:35px;padding:10px 15px;font-size:14px;font-weight:bold;}
+      .customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+      </style>
+      <!-- for map marker -->
 	</head>
 	<body id="page-top">
 		<!-- Navigation -->
@@ -33,7 +42,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand page-scroll" href="#page-top"><img width = 70px; src="/static/assets/images/logo.png" alt="Sanza theme logo"></a>
+					<a class="navbar-brand page-scroll" href="#page-top"><img width = 100px; src="/static/assets/images/logooo.png" alt="Sanza theme logo"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -78,7 +87,7 @@
 						<div class="owl-slider owl-carousel">
 							<div class="item">
 								<div class="owl-slider-item">
-									<img src="/static/assets/images/demo/logo4.png" class="img-responsive" alt="portfolio">
+									<img src="/static/assets/images/demo/mainphoto1.jpeg" class="img-responsive" alt="portfolio">
 									<div class="intro-text">
 									<!--    <div class="intro-lead-in">This is 공감하다</div> -->
 									<!-- 	<div class="intro-heading">Design & Development Agency</div>
@@ -88,7 +97,7 @@
 							</div>
 							<div class="item">
 								<div class="owl-slider-item">
-									<img src="/static/assets/images/demo/logo4.png" class="img-responsive" alt="portfolio">
+									<img src="/static/assets/images/demo/mainphoto2.jpeg" class="img-responsive" alt="portfolio">
 									<div class="intro-text">
 									
 										<!-- <div class="intro-lead-in">This is 공감하다2</div> -->
@@ -98,7 +107,7 @@
 							</div>
 							<div class="item">
 								<div class="owl-slider-item">
-									<img src="/static/assets/images/demo/logo4.png" class="img-responsive" alt="portfolio">
+									<img src="/static/assets/images/demo/mainphoto3.jpeg" class="img-responsive" alt="portfolio">
 									<div class="intro-text">
 										<!-- <div class="intro-lead-in">This is 공감하다3</div> -->
 										<!-- <div class="intro-heading">Design & Development Agency</div> -->
@@ -125,455 +134,207 @@
 		</section>
 		-->
 
-		<section id="about" class="light-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h2>About</h2>
-							<p> SW 관련 프로젝트 수행 <br> </p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<!-- about module -->
-					<div class="col-md-3 text-center">
-						<div class="mz-module">
-							<div class="mz-module-about">
-								<i class="fa fa-briefcase color1 ot-circle"></i>
-								<h3>SW Development</h3>
-								<p>공감 SW Development</p>
-							</div>
-							<a href="#" class="mz-module-button">read more</a>
-						</div>
-					</div>
-					<!-- end about module -->
-					<!-- about module -->
-					<div class="col-md-3 text-center">
-						<div class="mz-module">
-							<div class="mz-module-about">
-								<i class="fa fa-photo color2 ot-circle"></i>
-								<h3>image Classification</h3>
-								<p>인공지능을 활용한 동물 이미지 분석 시스템 개발</p>
-							</div>
-							<a href="#" class="mz-module-button">read more</a>
-						</div>
-					</div>
-					<!-- end about module -->
-					<!-- about module -->
-					<!-- 
-					<div class="col-md-3 text-center">
-						<div class="mz-module">
-							<div class="mz-module-about">
-								<i class="fa fa-camera-retro color3 ot-circle"></i>
-								<h3>Photography</h3>
-								<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-							</div>
-							<a href="#" class="mz-module-button">read more</a>
-						</div>
-					</div>
-					-->
-					<!-- end about module -->
-					<!-- about module -->
-					<!-- 
-					<div class="col-md-3 text-center">
-						<div class="mz-module">
-							<div class="mz-module-about">
-								<i class="fa fa-cube color4 ot-circle"></i>
-								<h3>UI/UX Design</h3>
-								<p></p>
-							</div>
-							<a href="#" class="mz-module-button">read more</a>
-						</div>
-					</div>
-					-->
-					<!-- end about module -->
-				</div>
-			</div>
-			<!-- /.container -->
-		</section>
-
-		<section id="features" class="section-features">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h2>공감 Features</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row row-gutter">
-					<div class="col-md-4 col-gutter">
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-television"></i></div>
-							<div class="featured-text">
-								<h4>feature 1</h4>
-								<p>특징 설명 특징 설명</p>
-							</div>
-						</div>
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-cogs"></i></div>
-							<div class="featured-text">
-								<h4>feature 2</h4>
-								<p>특징 설명 특징 설명</p>
-							</div>
-						</div>
-						<!-- 
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-newspaper-o"></i></div>
-							<div class="featured-text">
-								<h4>Custom Page Templates</h4>
-								<p>Our themes come packaged with multiple pages templates including Authors Team, Full Width, and more to enhance your site.</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-4 col-gutter">
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-indent"></i></div>
-							<div class="featured-text">
-								<h4>Unlimited Widget Areas</h4>
-								<p>We include just the right amount of useful widget areas and sidebars so you can place your content.</p>
-							</div>
-						</div>
-						
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-paste"></i></div>
-							<div class="featured-text">
-								<h4>Custom Widgets</h4>
-								<p>We include our own widgets for Reviews, Social, Advertising and additional custom widgets to enhance your site.</p>
-							</div>
-						</div>
-						
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-dollar"></i></div>
-							<div class="featured-text">
-								<h4>AD Management</h4>
-								<p>You can place various size of banner images in your sidebar and banners to other ad positions with ease.</p>
-							</div>
-						</div>
-					</div>
-					-->
-					<!-- 
-					<div class="col-md-4 col-gutter">
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-font"></i></div>
-							<div class="featured-text">
-								<h4>Icons and Fonts</h4>
-								<p>We include FontAwesome Icons &amp; Hundreds of Google Fonts to Choose from to customize your site.</p>
-							</div>
-						</div>
-						-->
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-wordpress"></i></div>
-							<div class="featured-text">
-								<h4>feature 3</h4>
-								<p>특징 설명 특징 설명</p>
-							</div>
-						</div>
-						<div class="featured-item">
-							<div class="featured-icon"><i class="fa fa-file-code-o"></i></div>
-							<div class="featured-text">
-								<h4>feature 4</h4>
-								<p>특징 설명 특징 설명</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="portfolio" class="light-bg">
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="section-title">
-						<h2>Portfolio</h2>
-						<p>Our portfolio is the best way to show our work.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row row-0-gutter">
-				<!-- start portfolio item -->
-				<div class="col-md-4 col-0-gutter">
-					<div class="ot-portfolio-item">
-						<figure class="effect-bubba">
-							<img src="/static/assets/images/demo/portfolio1.jpg" alt="img02" class="img-responsive" />
-							<figcaption>
-								<h2>SW Development 1</h2>
-								<p>강의실 대여 관리 시스템 개발</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- start portfolio item -->
-				<div class="col-md-4 col-0-gutter">
-					<div class="ot-portfolio-item">
-						<figure class="effect-bubba">
-							<img src="/static/assets/images/demo/portfolio2.png" alt="img02" class="img-responsive" />
-							<figcaption>
-								<h2>SW Development 2</h2>
-								<p>인공지능을 활용한 동물분석 시스템 개발</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- start portfolio item -->
-				<div class="col-md-4 col-0-gutter">
-					<div class="ot-portfolio-item">
-						<figure class="effect-bubba">
-							<img src="/static/assets/images/demo/portfolio3.jpg" alt="img02" class="img-responsive" />
-							<figcaption>
-								<h2>SW Development 3</h2>
-								<p>공모전 관리 시스템 개발</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-			</div>
-			<div class="row row-0-gutter">
-				<!-- start portfolio item -->
-				<!-- 
-				<div class="col-md-4 col-0-gutter">
-					<div class="ot-portfolio-item">
-						<figure class="effect-bubba">
-							<img src="/static/assets/images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />
-							<figcaption>
-								<h2>Smart Name</h2>
-								<p>Branding, Design</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				-->
-				
-				<!-- end portfolio item -->
-				<!-- start portfolio item -->
-				<!-- 
-				<div class="col-md-4 col-0-gutter">
-					<div class="ot-portfolio-item">
-						<figure class="effect-bubba">
-							<img src="/static/assets/images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />
-							<figcaption>
-								<h2>Fast People</h2>
-								<p>Branding, Web Design</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				-->
-				<!-- end portfolio item -->
-				<!-- start portfolio item -->
-				<!-- 
-				<div class="col-md-4 col-0-gutter">
-					<div class="ot-portfolio-item">
-						<figure class="effect-bubba">
-							<img src="/static/assets/images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />
-							<figcaption>
-								<h2>Kites & Stars</h2>
-								<p>Branding, Web Design</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				-->
-				<!-- end portfolio item -->
-			</div>
-			</div><!-- end container -->
-		</section>
-<!-- 
-		<section class="dark-bg short-section stats-bar">
-			<div class="container text-center">
-				<div class="row">
-					<div class="col-md-3 mb-sm-30">
-						<div class="counter-item">
-							<h2 class="stat-number" data-n="9">0</h2>
-							<h6>awards</h6>
-						</div>
-					</div>
-					<div class="col-md-3 mb-sm-30">
-						<div class="counter-item">
-							<h2 class="stat-number" data-n="167">0</h2>
-							<h6>Clients</h6>
-						</div>
-					</div>
-					<div class="col-md-3 mb-sm-30">
-						<div class="counter-item">
-							<h2 class="stat-number" data-n="6">0</h2>
-							<h6>Team</h6>
-						</div>
-					</div>
-					<div class="col-md-3 mb-sm-30">
-						<div class="counter-item">
-							<h2 class="stat-number" data-n="34">0</h2>
-							<h6>Project</h6>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
-		<!-- 
-
-		<section id="partners">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h2>Our Partners</h2>
-							<p>Mida sit una namet, cons uectetur adipiscing adon elit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="owl-partners owl-carousel">
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-1.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-2.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-3.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-4.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-5.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-6.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-7.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-8.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="/static/assets/images/demo/partners-9.png" alt="partners"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
-		<!-- 
-		<section id="team" class="light-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h2>Our Team</h2>
-							<p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. MOOZ Agency is one of the best in town see more you will be amazed.</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="row">
-				-->
-					<!-- team member item -->
-					<!-- 
-					<div class="col-md-4">
-						<div class="team-item">
-							<div class="team-image">
-								<img src="/static/assets/images/demo/author-2.jpg" class="img-responsive" alt="author">
-							</div>
-							<div class="team-text">
-								<h3>TOM BEKERS</h3>
-								<div class="team-position">CEO & Web Design</div>
-								<p>Mida sit una namet, cons uectetur adipiscing adon elit. Aliquam vitae barasa droma.</p>
-								<div class="team-socials">
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-youtube"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					-->
-					<!-- end team member item -->
-					<!-- team member item -->
-					<!-- 
-					<div class="col-md-4">
-						<div class="team-item">
-							<div class="team-image">
-								<img src="/static/assets/images/demo/author-6.jpg" class="img-responsive" alt="author">
-							</div>
-							<div class="team-text">
-								<h3>LINA GOSATA</h3>
-								<div class="team-position">Photography</div>
-								<p>Worsa dona namet, cons uectetur dipiscing adon elit. Aliquam vitae fringilla unda mir.</p>
-								<div class="team-socials">
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-youtube"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					-->
-					<!-- end team member item -->
-					<!-- team member item -->
-					<!-- 
-					<div class="col-md-4">
-						<div class="team-item">
-							<div class="team-image">
-								<img src="/static/assets/images/demo/author-4.jpg" class="img-responsive" alt="author">
-							</div>
-							<div class="team-text">
-								<h3>John BEKERS</h3>
-								<div class="team-position">Marketing</div>
-								<p>Dolor sit don namet, cons uectetur beriscing adon elit. Aliquam vitae fringilla unda.</p>
-								<div class="team-socials">
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-youtube"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					-->
-					<!-- end team member item -->
-				</div>
-			</div>
-		</section>
-<!-- 
-		<section class="section-cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<h2>This is Call To Action module. One click and template is yours.</h2>
-					</div>
-					<div class="col-md-4">
-						<a href="#" class="button-cta">DOWNLOAD</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
-
+<!-- portfolio section -->
+      <section id="portfolio" class="light-bg">
+         <div class="container">
+         <div class="row">
+            <div class="col-lg-12 text-center">
+               <div class="section-title">
+                  <h2>Portfolio</h2>
+                  <p>Our portfolio is the best way to show our work.</p>
+               </div>
+            </div>
+         </div>
+         <div class="row row-0-gutter">
+            <!-- start portfolio item -->
+            <div class="col-md-4 col-0-gutter">
+               <div class="ot-portfolio-item">
+                  <figure class="effect-bubba">
+                     <img src="/static/assets/images/demo/driver.png" alt="img02" class="img-responsive" />
+                     <figcaption>
+                        <h2>[Driver]</h2>
+                        <p>T map을 이용한 운행 최단 경로 최적화 </p>
+                        <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <div class="col-md-4 col-0-gutter">
+               <div class="ot-portfolio-item">
+                  <figure class="effect-bubba">
+                     <img src="/static/assets/images/demo/parent.png" alt="img02" class="img-responsive" />
+                     <figcaption>
+                        <h2>[Parent]</h2>
+                        <p>학생 탑승 정보 및 운행 여부 실시간 확인 기능 제공</p>
+                        <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <div class="col-md-4 col-0-gutter">
+               <div class="ot-portfolio-item">
+                  <figure class="effect-bubba">
+                     <img src="/static/assets/images/demo/student.png" alt="img02" class="img-responsive" />
+                     <figcaption>
+                        <h2>[Student]</h2>
+                        <p>학원 버스 실시간 위치 제공</p>
+                        <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+            <!-- end portfolio item -->
+         </div>
+         <div class="row row-0-gutter">
+            
+         </div>
+         </div><!-- end container -->
+      </section>
+   <section id="features" class="section-features">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-16 text-center">
+                  <div class="section-title">
+                     <h2>셔틀타고의 주요 기능</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row row-gutter">
+               <div class="col-md-6 col-gutter">
+                  <div class="featured-item">
+                     <div class="featured-icon"><i class="fa fa-television"></i></div>
+                     <div class="featured-text">
+                        <h4> 통원학생정보 통합관리 시스템 </h4>
+                        <p> 통원학생의 정보를 종합적으로 관리하는 시스템 제공</p>
+                     </div>
+                  </div>
+                  <div class="featured-item">
+                     <div class="featured-icon"><i class="fa fa-cogs"></i></div>
+                     <div class="featured-text">
+                        <h4> 통원 차량 운영 </h4>
+                        <p> 학생별, 기사별, 시간대별 스케줄링 가능</p>
+                     </div>
+                  </div>
+                  <div class="featured-item">
+                     <div class="featured-icon"><i class="fa fa-newspaper-o"></i></div>
+                     <div class="featured-text">
+                        <h4> 학원차량 경로 최적화</h4>
+                        <p> T MAP API를 활용하여 경로 최적화 기능 제공 </p>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="col-md-6 col-gutter">
+                  <div class="featured-item">
+                     <div class="featured-icon"><i class="fa fa-indent"></i></div>
+                     <div class="featured-text">
+                        <h4> 학생, 학원버스 위치정보</h4>
+                        <p> 학생 및 학원버스의 실시간 위치정보 확인 기능 제공</p>
+                     </div>
+                  </div>
+                  
+                  <div class="featured-item">
+                     <div class="featured-icon"><i class="fa fa-paste"></i></div>
+                     <div class="featured-text">
+                        <h4> 학생의 탑승 정보 알림</h4>
+                        <p> 학생의 탑승정보를 실시간으로 알려주는 푸쉬알람 기능 제공 </p>
+                     </div>
+                  </div>
+      </section>      
+      
 		<section id="contact" class="dark-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
 							<h2>Contact Us</h2>
+							                  <aside class="appInstall lzCntnr"
+                           data-ga-event-category="홈_appInstall">                           
+      
+                           <a class="appInstall__link appInstall__link--android"
+                              href="//play.google.com/store/apps/details?id=com.nhn.android.search"
+                              target="_blank" rel="noopener noreferrer"> 
+                              <picture>
+                                 <source
+                                    srcset="/static/assets/images/google-play-badge.png"
+                                    media="(max-width:960px)">
+                                 <img
+                                    src="/static/assets/images/google-play-badge.png"
+                                    alt="GET IT ON Google play."> 
+                              </picture>
+                           </a>
+                            
+                           <a class="appInstall__link appInstall__link--ios"
+                              href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+                              target="_blank" rel="noopener noreferrer"> 
+                              <picture>
+                                 <source
+                                    srcset="/static/assets/images/apple-badge.png"
+                                    media="(max-width:960px)">
+                                 <img
+                                    src="/static/assets/images/apple-badge.png"
+                                    alt="Download on the App Store."> 
+                              </picture>
+                           </a>
+                        </aside>
+                         <!-- Map -->
+                  
+                       <section id="contact" class="map">
+                       <div id="map" style="width:100%;height:400px;">
+                       </div>
+                       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=324ca6d74606b53def73449932281853&libraries=services,clusterer,drawing"></script>
+                       <script>
+                       var container = document.getElementById('map');
+                       var options = {
+                             center: new kakao.maps.LatLng(37.494685, 126.959303),
+                             level: 3
+                             };
+                       var map = new kakao.maps.Map(container, options);
+
+                       map.setZoomable(false); //확대 축소 허가 안함
+                       <!-- Marker -->
+
+
+                       var imageSize=new kakao.maps.Size(200, 180),
+                          imageOption={offset: new kakao.maps.Point(100,100)};
+
+                       var markerImage = new kakao.maps.MarkerImage("/static/assets/images/bus.png", imageSize, imageOption);
+
+                     
+                       var markerPosition = new kakao.maps.LatLng(37.494685, 126.959303);
+
+                       
+                       var marker = new kakao.maps.Marker({
+                          position: markerPosition,
+                          image: markerImage
+                          });
+
+                       marker.setMap(map);
+                       
+                       
+                       var content ='<div class="customoverlay">'+
+                       ' <a href="https://map.kakao.com/?itemId=17565058" target="_blank">'+
+                       '    <span class="title">(주)공감하다</span>'+
+                       '   </a>'+
+                       '</div>';
+
+                       var position=new kakao.maps.LatLng(37.494685, 126.959303);
+
+                       var customOverlay = new kakao.maps.CustomOverlay({
+                          map:map,
+                          position:position,
+                          content: content,
+                          yAnchor:1
+                          });
+                       
+                       </script>
+                       </section>
+                     
+                     <!-- Map -->
 							<p>If you have some Questions or need Help! Please Contact Us!</p>
 						</div>
 					</div>
@@ -636,8 +397,8 @@
 			<a href="#top"><i class="fa fa-angle-up"></i></a>
 		</p>
 		<footer>
-			<div class="container text-center">
-				<a href="#page-top"><img width = 100px; src="/static/assets/images/logo2.png" alt=""></a>
+			<div class="container text-center" >
+				<a href="#page-top"><img width = 100px; src="/static/assets/images/logooo.png" alt=""></a>
 				<!-- <a href="http://moozthemes.com"><img src></img></a> -->
 			</div>
 		</footer>
