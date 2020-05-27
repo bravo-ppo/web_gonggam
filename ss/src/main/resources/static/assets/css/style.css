@@ -47,7 +47,7 @@ h6 {
 	font-weight: 300;
 	letter-spacing: 0.4px;
 	font-family: "Raleway", Sans-serif;
-	color: #232323;
+	color: #000000;
 }
 
 p {
@@ -56,7 +56,7 @@ p {
 	font-weight: 300;
 	line-height: 23px;
 	letter-spacing: 0.2px;
-	color: #444444;
+	color: #000000;
 }
 
 .dark-bg p {
@@ -326,7 +326,7 @@ header {
 
 .section-title h2 {
 	font-size: 50px;
-	color: #B3B3BB;
+	color: #000000;
 	font-weight: 900;
 	letter-spacing: -0.6px;
 	position: relative;
@@ -1018,256 +1018,4 @@ and (max-width : 480px) {
 	font-size: 20px;
 }
 }
-.appInstall {
-   position: relative;
-   font-size: 1px;
-   line-height: 0;
-   color: transparent
-}
 
-@media ( min-width : 961px) {
-   .appInstall{
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      margin: 0 auto;
-      padding-top: 140px;
-      padding-bottom: 60px;
-      background: #fff
-   }
-}
-
-@media ( max-width : 960px) {
-   .appInstall {
-      margin: 16px 0 32px
-   }
-}
-
-@media ( max-width : 639px) {
-   .appInstall {
-      padding-left: 8px;
-      padding-right: 8px
-   }
-}
-
-@media ( min-width : 961px) {
-   .appInstall::after {
-      content: none
-   }
-}
-
-.appInstall__heading {
-   display: flex;
-   justify-content: center;
-   align-items: center
-}
-
-@media ( min-width : 961px) {
-   .appInstall__heading {
-      position: absolute;
-      top: 32px;
-      height: 100px;
-      left: 0;
-      right: 0
-   }
-}
-
-@media ( max-width : 960px) {
-   .appInstall__heading {
-      height: 50px
-   }
-}
-
-@media ( max-width : 960px) {
-   .appInstall__heading picture {
-      transform: scale(0.5)
-   }
-}
-
-.appInstall__link {
-   display: block;
-   position: relative;
-   overflow: hidden;
-   border: 1px solid #dbdee3;
-   background-color: #fff
-}
-
-.appInstall__link::after {
-   content: '';
-   display: block
-}
-
-@media ( min-width : 961px) {
-   .appInstall__link {
-      width: 31.97%
-   }
-   .appInstall__link::after {
-      padding-top: 57.89%
-   }
-}
-
-@media ( min-width : 1281px) { @
-   supports (width: calc ((1% - 1px ) / 1)){.appInstall__link {
-      width: calc(( 100% - 48px)/3)
-   }
-}
-
-}
-@media ( min-width : 961px) and (max-width: 1280px) { @
-   supports (width: calc ((1% - 1px ) / 1)){.appInstall__link {
-      width: calc(( 100% - 32px)/3)
-   }
-}
-
-}
-@media ( max-width : 960px) {
-   .appInstall__link {
-      white-space: nowrap
-   }
-   .appInstall__link--plus {
-      margin-bottom: 8px
-   }
-   .appInstall__link--plus>picture {
-      width: auto !important;
-      height: auto !important;
-      top: -1px !important;
-      bottom: -1px;
-      left: -1px;
-      right: -1px
-   }
-   .appInstall__link--plus::after {
-      padding-top: 33.11%
-   }
-   .appInstall__link--android, .appInstall__link--ios {
-      width: 48.5%
-   }
-   @
-   supports (width: calc ((1% - 1px ) / 1)){.appInstall__link--android,
-      .appInstall__link--ios {
-      width: calc(50% - 4px)
-   }
-}
-
-.appInstall__link--android::after, .appInstall__link--ios::after {
-   padding-top: 34.48%
-}
-
-.appInstall__link--android {
-   float: right
-}
-
-.appInstall__link--ios {
-   float: left
-}
-
-}
-.appInstall__link picture, .appInstall__link source, .appInstall__link img
-   {
-   position: absolute;
-   top: 0;
-   width: 100%;
-   height: 100%
-}
-
-*, ::before, ::after {
-   box-sizing: border-box
-}
-
-.lzCntnr {
-   position: relative;
-   box-sizing: border-box;
-   margin-left: auto;
-   margin-right: auto
-}
-
-@media ( min-width : 640px) {
-   .lzCntnr {
-      padding-left: 16px;
-      padding-right: 16px
-   }
-}
-
-@media ( min-width : 1281px) {
-   .lzCntnr {
-      max-width: 1212px
-   }
-}
-
-@media ( min-width : 961px) and (max-width: 1280px) {
-   .lzCntnr {
-      max-width: 1036px
-   }
-}
-
-@media ( max-width : 960px) {
-   .lzCntnr {
-      width: 100%
-   }
-}
-
-.lzCntnr::after {
-   content: '';
-   display: block;
-   clear: both
-}
-
-.lzCntnr--gnb {
-   z-index: 7;
-   background-color: #fff;
-   line-height: 64px;
-   white-space: nowrap
-}
-
-@media ( min-width : 640px) {
-   .lzCntnr--gnb {
-      box-shadow: -1000px 0 0 #fff, 1000px 0 0 #fff
-   }
-}
-
-@media ( min-width : 961px) {
-   .lzCntnr--gnb {
-      border-top: 24px solid #fff;
-      border-bottom: 24px solid #fff
-   }
-}
-
-@media ( max-width : 960px) {
-   .lzCntnr--gnb {
-      border-top: 16px solid #fff;
-      border-bottom: 8px solid #fff
-   }
-}
-
-@media ( max-width : 960px) {
-   .ja-JP .lzCntnr--gnb::before, .ja-JP .lzCntnr--gnb::after {
-      content: ''
-   }
-}
-
-@media ( max-width : 960px) {
-   .lzCntnr--gnb::before, .lzCntnr--gnb::after {
-      position: absolute;
-      z-index: 2;
-      top: 48px;
-      bottom: 0;
-      width: 24px;
-      pointer-events: none
-   }
-}
-
-@media ( max-width : 960px) {
-   .lzCntnr--gnb::before {
-      left: 0;
-      background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0))
-   }
-}
-
-@media ( max-width : 960px) {
-   .lzCntnr--gnb::after {
-      right: 0;
-      background: linear-gradient(to left, #fff, rgba(255, 255, 255, 0))
-   }
-}

@@ -87,11 +87,27 @@
 							</div>
 							<div class="item">
 								<div class="owl-slider-item">
-									<img src="/static/assets/images/demo/mainphoto2.jpeg" class="img-responsive" alt="portfolio">
+									<img src="/static/assets/images/demo/mainphoto4.jpeg" class="img-responsive" alt="portfolio">
 									<div class="intro-text">
 									
-										<!-- <div class="intro-lead-in">This is 공감하다2</div> -->
-										<!-- <div class="intro-heading">Design & Development Agency</div> -->
+										
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="owl-slider-item">
+									<img src="/static/assets/images/demo/mainphoto5.jpeg" class="img-responsive" alt="portfolio">
+									<div class="intro-text">
+									
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="owl-slider-item">
+									<img src="/static/assets/images/demo/mainphoto6.jpeg" class="img-responsive" alt="portfolio">
+									<div class="intro-text">
+									
+										
 									</div>
 								</div>
 							</div>
@@ -99,8 +115,7 @@
 								<div class="owl-slider-item">
 									<img src="/static/assets/images/demo/mainphoto3.jpeg" class="img-responsive" alt="portfolio">
 									<div class="intro-text">
-										<!-- <div class="intro-lead-in">This is 공감하다3</div> -->
-										<!-- <div class="intro-heading">Design & Development Agency</div> -->
+										
 									</div>
 								</div>
 							</div>
@@ -228,35 +243,22 @@
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
 							<h2>Contact Us</h2>
-							                  <aside class="appInstall lzCntnr"
-                           data-ga-event-category="홈_appInstall">                           
-      
-                           <a class="appInstall__link appInstall__link--android"
-                              href="//play.google.com/store/apps/details?id=com.nhn.android.search"
-                              target="_blank" rel="noopener noreferrer"> 
-                              <picture>
-                                 <source
-                                    srcset="/static/assets/images/google-play-badge.png"
-                                    media="(max-width:960px)">
-                                 <img
-                                    src="/static/assets/images/google-play-badge.png"
-                                    alt="GET IT ON Google play."> 
-                              </picture>
-                           </a>
-                            
-                           <a class="appInstall__link appInstall__link--ios"
-                              href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
-                              target="_blank" rel="noopener noreferrer"> 
-                              <picture>
-                                 <source
-                                    srcset="/static/assets/images/apple-badge.png"
-                                    media="(max-width:960px)">
-                                 <img
-                                    src="/static/assets/images/apple-badge.png"
-                                    alt="Download on the App Store."> 
-                              </picture>
-                           </a>
-                        </aside>
+						    <a href="//play.google.com/store/apps/details?id=com.nhn.android.search"
+                  target="_blank" rel="noopener noreferrer">
+                  
+                  <img src="/static/assets/images/google-play-badge.png"
+                        alt="GET IT ON Google play."
+                        style="max-width: 100%;height: auto;">
+                  </a>
+                  
+                  <a href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+                  target="_blank" rel="noopener noreferrer">
+                  
+                  <img src="/static/assets/images/apple-badge.png"
+                        alt="GET IT ON Google play."
+                        style="max-width: 100%;height: auto;">
+                  </a>
+                        
                          <!-- Map -->
                   
                        <section id="contact" class="map">
