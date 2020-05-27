@@ -504,12 +504,12 @@ header {
 	margin-left: 85px;
 }
 .featured-text h4 {
-	color: #47474C;
+	color: #000000;
 	font-size: 20px;
 	font-weight: 700;
 }
 .featured-text p {
-	color: #747377;
+	color: #000000;
 	margin-top: 7px;
 	font-size: 16px;
 	line-height: 21px;
@@ -855,7 +855,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: #333231;	
 }
 
 footer p {
@@ -985,7 +985,7 @@ color: #fff;
 	font: 11px/100% Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #5D5D5F;
 	background: #A9A9B1;
 	/* background color transition */
 	-webkit-transition: 1s;

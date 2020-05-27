@@ -54,22 +54,12 @@
 							<a class="page-scroll" href="#page-top">Home</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">About</a>
+							<a class="page-scroll" href="#portfolio">Portfolio</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#features">Features</a>
 						</li>
-						<li>
-							<a class="page-scroll" href="#portfolio">Portfolio</a>
-						</li>
-						<!-- 
-						<li>
-							<a class="page-scroll" href="#partners">Partners</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#team">Team</a>
-						</li>
-						-->
+
 						<li>
 							<a class="page-scroll" href="#contact">Contact</a>
 						</li>
@@ -119,20 +109,6 @@
 				</div>
 			</div>
 		</header>
-<!-- 
-		<section class="section-cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<h2>This is Call To Action module. One click and template is yours.</h2>
-					</div>
-					<div class="col-md-4">
-						<a href="#" class="button-cta">DOWNLOAD</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
 
 <!-- portfolio section -->
       <section id="portfolio" class="light-bg">
@@ -355,44 +331,7 @@
 							<p><i class="fa fa-clock-o"></i> <span class="day">Weekends:</span><span>Closed</span></p>
 						</div>
 					</div>
-					<!-- 
-					<div class="col-md-6">
-						<form name="sentMessage" id="contactForm" novalidate="">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 text-center">
-									<div id="success"></div>
-									<button type="submit" class="btn">Send Message</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
+					
 		<p id="back-top">
 			<a href="#top"><i class="fa fa-angle-up"></i></a>
 		</p>
