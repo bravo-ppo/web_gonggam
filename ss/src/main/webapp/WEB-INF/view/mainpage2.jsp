@@ -131,7 +131,34 @@
  			</div>
  			<div class="col-lg-12 text-center">
                <div class="section-title">
-                  <p>셔틀타고는 여러분 자녀들의 안전을 보장합니다.</p>
+                  <h1>셔틀타고</h1>
+                  <p>
+                  학원 학부모 자녀<br>
+                  모두가 편한 통학버스 도착알림 서비스
+                 </p>
+                 <a href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+				                  target="_blank" rel="noopener noreferrer">
+				                  
+				                  <img src="/static/assets/images/demo/app3.png"
+				                        alt="GET IT ON Google play."
+				                        style="max-width: 7%;height: auto;">
+				            </a>
+				 <a href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+				                  target="_blank" rel="noopener noreferrer">
+				                  
+				                  <img src="/static/assets/images/demo/app3.png"
+				                        alt="GET IT ON Google play."
+				                        style="max-width: 7%;height: auto;">
+				            </a>
+				<a href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+				                  target="_blank" rel="noopener noreferrer">
+				                  
+				                  <img src="/static/assets/images/demo/app3.png"
+				                        alt="GET IT ON Google play."
+				                        style="max-width: 7%;height: auto;">
+				            </a>
+				  <p><br><br><br></p>          
+                  
                </div>
             </div>
  			</header>
@@ -259,7 +286,7 @@
 				                  
 				                  <img src="/static/assets/images/google-play-badge.png"
 				                        alt="GET IT ON Google play."
-				                        style="max-width: 100%;height: auto;">
+				                        style="max-width: 15%;height: auto;">
 				                  </a>
 				                  
 				                  <a href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
@@ -267,7 +294,14 @@
 				                  
 				                  <img src="/static/assets/images/apple-badge.png"
 				                        alt="GET IT ON Google play."
-				                        style="max-width: 100%;height: auto;">
+				                        style="max-width: 15%;height: auto;">
+				            </a>
+				            <a href="//apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+				                  target="_blank" rel="noopener noreferrer">
+				                  
+				                  <img src="/static/assets/images/apple-badge.png"
+				                        alt="GET IT ON Google play."
+				                        style="max-width: 15%;height: auto;">
 				            </a>
                         
                          <!-- Map -->
