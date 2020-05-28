@@ -126,7 +126,9 @@
  -->		
  
  
+			<div class="text-center">
  			<img src="/static/assets/images/main.png" alt="GET IT ON Google play." style="max-width: 100%;height: auto;">
+ 			</div>
  			<div class="col-lg-12 text-center">
                <div class="section-title">
                   <p>셔틀타고는 여러분 자녀들의 안전을 보장합니다.</p>
